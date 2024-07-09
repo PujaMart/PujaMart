@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to PujaMart</title>
+</head>
+<link rel="stylesheet" href="styles/style.css">
+<link rel="stylesheet" href="styles/mobile_styles.css">
+<script src="scripts/script.js"></script>
+<body>
+    <nav class="coupons-nav" >
+        <marquee>
+        Get 10% off on puja essentials with code PUJADEALS
+        </marquee>
+        <img src="Icons/close.png" alt="CloseOffer" onclick="CloseTopOffer()">
+    </nav>
+    <nav class="cat-nav">
+        <H2>
+           <a href="">PujaMart</a>
+        </H2>
+        <div class="cat-nav-links">
+            <ul class="cat-links">
+                <li><a href="">Books<img src="Icons/arrow_down.svg"></a></li>
+                <li><a href="">Puja Essentials<img src="Icons/arrow_down.svg"></a></li>
+                <li><a href="">Festivals<img src="Icons/arrow_down.svg"></a></li>
+                <li><a href="">Subscribe<img src="Icons/arrow_down.svg"></a></li>
+                <li><a href="">About<img src="Icons/arrow_down.svg"></a></li>
+            </ul>
+        </div>
+        <form class="product-search" id="product-search">
+            <input 
+                type="search" 
+                id="site-search" 
+                placeholder="Search...."
+                size="50"
+            />
+            <img id='search-img'  src="Icons/search.svg" alt="Search">
+        </form>
+        <div class="User-Info">
+            <img src="Icons/account_logo.svg" alt="Accounts"/>
+            <div class="cart-info">
+                <img src="Icons/cart_logo.svg" alt="Cart">
+                <p id="Cart-Counter">0</p>
+            </div>
+        </div>     
+        <div class="cat-btn">
+            <img src="Icons/menu.svg" id='menu-btn' alt="Menu" onclick="ShowMenu()"/>
+            <img src="Icons/close.svg" id="menu-close-btn" onclick="CloseMenu()"/>
+        </div>  
+    </nav>
+    <div class="cat-container">
+        
+    </div>
+    <div class="promotions-container">
+        <div class="promotion-text">
+            <H1>Explore and Shop for traditional Puja Essentials</H1>
+            <H3>Select from wide range of puja items and kits from various regions of India</H3>
+            <div class="Website-Stats">
+                <span>
+                    <h2>2K+</h2>
+                    <p>Products</p>
+                </span>
+                <span>
+                    <h2>100+</h2>
+                    <p>Suppliers</p>
+                </span>
+                <span>
+                    <h2>10K+</h2>
+                    <p>Happy Customers</p>
+                </span>
+            </div>    
+        </div>
+        <div class="promotion-products">
+            <img src="Images/diya.jpg"/>
+        </div>
+    </div>
+    <div class="featured-products">
+        <h1>Featured products this month</h1>
+        <div class="featured-products-img">
+            <span>
+                <img src="Images/Monthly Featured Products/P1.jpeg" alt="Products">
+                <h4>Handcrafted Puja Thali</h4>
+
+                <button class="cart-add">Add to Cart</button>
+            </span>
+            <span>
+                <img src="Images/Monthly Featured Products/P2.jpg" alt="Products">
+                <h4>Sandalwood Incense Stick</h4>
+                <button class="cart-add">Add to Cart</button>
+            </span>
+            <span>
+                <img src="Images/Monthly Featured Products/P3.jpeg" alt="Products">
+                <h4>Brass Diya Lamp</h4>
+                <button class="cart-add">Add to Cart</button>
+            </span>
+            <span>
+                <img src="Images/Monthly Featured Products/P4.jpg" alt="Products">
+                <h4>Rudraksha</h4>
+                <button class="cart-add">Add to Cart</button>
+            </span>
+            <span>
+                <img src="Images/Monthly Featured Products/P5.jpeg" alt="Products">
+                <h4>Bandarwar</h4>
+                <button class="cart-add">Add to Cart</button>
+            </span> 
+        </div>
+    </div> 
+
+</body>
+</html>

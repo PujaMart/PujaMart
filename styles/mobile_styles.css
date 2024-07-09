@@ -1,0 +1,57 @@
+@media screen and (max-width: 480px) { 
+  
+    .coupons-nav marquee {
+    position: relative;
+    margin-left: -5vw;
+    margin-right: 5vw;
+    width: 90vw;
+    }
+
+    .coupons-nav img {
+        padding-left: 10px;
+    }
+
+    .product-search {
+        display: none;
+    }
+
+    .cat-btn {
+        display: flex;
+        padding: 0 3vw 0 0;
+        height: 45px;
+        margin-left: -2vw;
+    }
+
+    #menu-btn {
+        display: flex;
+    }
+
+    .User-Info img {
+        margin-left: 2vw;
+    }
+
+    #menu-close-btn {
+        display: none;
+    }
+
+    .cat-nav-links {
+        width: 20vw;
+    }
+
+    .cat-nav-links ul{
+        display: flex;
+        background-color: aqua;
+        flex-direction: column;
+        transform: translate(-80%, 75%);
+        width: 100vw;
+        color: black;
+    }
+
+    .cat-nav-links ul li {
+        width: 36vw;
+        padding: 10px 0 10px 0 ;
+        margin: 0;
+    }
+
+   
+}
