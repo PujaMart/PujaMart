@@ -40,11 +40,11 @@
 
     .cat-nav-links ul{
         display: flex;
-        background-color: aqua;
+        background-color: black;
         flex-direction: column;
         transform: translate(-80%, 75%);
         width: 100vw;
-        color: black;
+        
     }
 
     .cat-nav-links ul li {
@@ -53,5 +53,106 @@
         margin: 0;
     }
 
+    .promotions-container {
+        flex-direction: column;
+        height: 100vw;
+    }
+
+
+    .promotion-text {
+        display: none;
+       width: 100vw;
+    }
+
+    .promotion-text h1 {
+        font-size: 8vw;
+        margin: 5vw 7vw 1vh 7vw;  
+    }
+    
+    .promotion-text h3 {
+        font-size: 4vw;
+        margin: 0 7vw 5vw 7vw ;
+    }
+
+    .Website-Stats {
+        display: none;
+    }
+
+    .featured-products {
+        display: none;
+        
+    }
    
+    .featured-products h1 {
+        font-size: x-large;
+        margin: 2vh 0 0 5vw ;
+    }
+
+    
+    .promotion-products {
+        width: 100vw;
+        margin: 0;
+    }
+
+    .promotion-products img {
+        width: 100vw;
+        height: 100vw;
+    }
+
+    .product-slider {
+        height: 40vh;
+        padding: 0 20px 0 20px;
+    }
+
+    .product-card {
+        height: 35vh;
+        width: 45vw;
+    }
+
+    .product-image {
+        height: 17vh;
+        width: 100%;
+    }
+
+    .product-image img {
+        width: 35vw;
+        height: 35vw;
+    }
+
+    .featured-products-slider {
+        display: flex;
+        flex-direction: column;
+      }
+
+    .cart-add {
+        transform: translate(14vw, -13vh);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 10vw;
+        width: 10vw;
+        border-radius: 50%;
+    }
+
+    .cart-add img {
+        display: flex;
+    }
+
+    .cart-add span {
+        display: none;
+    }
+
+    .product-info {
+        height: 18vh;
+        width: 100%;
+        padding: 0;
+    }
+
+    .product-container {
+        padding: 0;
+    }
+
+    .product-brand {
+        height: 7vw;
+    }
 }
