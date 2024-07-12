@@ -155,4 +155,26 @@
     .product-brand {
         height: 7vw;
     }
+
+    footer {
+        width: 100%;
+    }
+
+    .help, .social-links, .address {
+        padding-left: 1vw;
+    }
+
+    .social-links{
+        width: 27vw;
+    }
+
+    .help {
+        width: 30vw;
+    }
+
+    .help ul, .social-links ul {
+        font-size: medium;
+    }
+
+
 }
