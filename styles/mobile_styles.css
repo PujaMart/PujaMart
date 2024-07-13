@@ -158,15 +158,21 @@
 
     .banner-text  {
         font-size: 2vw;
+       
     }
 
-    .email-letter {
-        display: none;
+    .newsletter {
+        height: 45vw;
+    }
+
+    .email-letter{
+        transform: translate(-50px, 40px);
     }
 
     .email-letter input {
-        width: 60vw;
+        width: 70vw;
         margin-right: -15vw;
+        
     }
 
     .email-letter button {

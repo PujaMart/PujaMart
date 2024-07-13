@@ -231,14 +231,6 @@ body img {
     justify-content: center;
 }
 
-.featured-products button {
-    height: 4vw;
-    width: 10vw;
-    cursor: pointer;
-}
-
-
-
 
 /*Slider */
 
@@ -400,12 +392,13 @@ body img {
   }
 
   .cart-add {
-    height: 4vw;
-    width: 12vw;
+    height: 3vw;
+    width: 10vw;
     background-color: #414141;
     border: none;
     color: #ffffff;
     opacity: 1.5;
+    font-size: 1vw;
   }
 
   .cart-add img {
@@ -501,14 +494,16 @@ body img {
     align-items: center;
     justify-content: center;
     margin: 0 5vw 0 5vw;
-    font-size: large;
+    font-size: 1.5vw;
   }
 
   .banner-text h1 {
     margin: 0 0 5vw 0;
+    color: #FFD800;
   }
 
   .email-letter input {
+    min-width: 20vw;
     width: 35vw;
     height: 2.5vw;
     border: none;
@@ -526,7 +521,7 @@ body img {
     height: 3vw;
     background-color: transparent;
     border: none;
-    transform: translateX(-98px);
+    transform: translateX(-100px);
     font-size: large;
     cursor: pointer;
   }
@@ -551,5 +546,16 @@ body img {
       height: 40vh;
     }
 
+    .promotions-container{
+      height: 45vw;
+    }
+
+    .newsletter {
+      padding: 20px 0 20px 0;
+    }
+
+    .product-slider, .featured-products-slider {
+      height: 38vw;
+  }
     
 }
