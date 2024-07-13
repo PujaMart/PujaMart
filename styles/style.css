@@ -2,6 +2,7 @@ body {
     margin: 0;
     background-color: black;
     color: #ffffff;
+    max-width: 100%;
 }
 
 body img {
