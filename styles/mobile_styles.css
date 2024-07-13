@@ -99,7 +99,7 @@
         height: 100vw;
     }
 
-    .product-slider {
+    .product-slider, .featured-products-slider {
         height: 40vh;
         padding: 0 20px 0 20px;
     }
@@ -120,7 +120,7 @@
     }
 
     .featured-products-slider {
-        display: flex;
+        display: block;
         flex-direction: column;
       }
 
