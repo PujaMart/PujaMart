@@ -265,34 +265,63 @@
         </div>
     </section>
     <div class="divider-line"></div>
+    <div class="newsletter">
+        <div class="banner-img">
+            <img src="Images/newsletter.jpg" alt="newsletter">
+        </div>
+        <div class="banner-text">
+            <h1>Recieve updates about the aspicious occasions, festivals and know about our latest products and launches</h1>
+            <form class="email-letter">
+                <input
+                id="Email-news"
+                placeholder="Enter your Email Here"
+                type="email"
+                size="50"
+                />
+                <button type="submit">Subscribe</button>
+            </form>
+        </div>    
+    </div>
+    <div class="divider-line"></div>
     <footer>
-        <div class="help">
-            <h3>Help</h3>
-            <ul>
-                <li>Payments</li>
-                <li>Orders</li>
-                <li>Shipping</li>
-                <li>Privacy Policy</li>
-                <li>Return and Refunds</li>
-                <li>Terms and Condition</li>
-            </ul>
-        </div>
-        <div class="social-links">
-            <h3>Social Media</h3>
-            <ul>
-                <li>Facebook</li>
-                <li>Instagram</li>
-                <li>X</li>
-                <li>Youtube</li>
-                <li>Linkedin</li>
-            </ul>
-        </div>
-        <div class="address">
-            <h3>Contact Us</h3>
-            <p>123 Puja Street, Harmony City<br>
-                Email : contact@pujamart.com<br>
-                Phone : +91 12124 23223
-            </p>
+        <div class="foot-contents">
+            <div class="help">
+                <h3>Help</h3>
+                <img src="Icons/add.svg" alt="More" onclick="foot_help()" class="Open">
+                <img src="Icons/close.svg" alt="Close" onclick="foot_help_close()" class="Close">
+                <ul>
+                    <li>Payments</li>
+                    <li>Orders</li>
+                    <li>Shipping</li>
+                    <li>Privacy Policy</li>
+                    <li>Return and Refunds</li>
+                    <li>Terms and Condition</li>
+                </ul>
+            </div>
+            <div class="social-links">
+                <h3>Social Media</h3>
+                <img src="Icons/add.svg" alt="More" onclick="foot_social()" class="Open" id="social_open">
+                <img src="Icons/close.svg" alt="Close" onclick="foot_social_close()" class="Close" id="social_close">
+                <ul>
+                    <li>Facebook</li>
+                    <li>Instagram</li>
+                    <li>X</li>
+                    <li>Youtube</li>
+                    <li>Linkedin</li>
+                </ul>
+            </div>
+            <div class="address">
+                <h3>Contact Us</h3>
+                <img src="Icons/add.svg" alt="More" onclick="foot_add()" class="Open" id="add_open">
+                <img src="Icons/close.svg" alt="Close" onclick="foot_add_close()" class="Close" id="add_close">
+                <p>123 Puja Street, Harmony City<br>
+                    Email : contact@pujamart.com<br>
+                    Phone : +91 12124 23223
+                </p>
+            </div>
+        </div>    
+        <div class="trademark">
+            <p>Copyright © 2024, PujaMart, All Rights Reserved</p>
         </div>
     </footer>
 </body>

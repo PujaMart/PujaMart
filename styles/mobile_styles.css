@@ -156,25 +156,73 @@
         height: 7vw;
     }
 
+    .banner-text  {
+        font-size: 2vw;
+    }
+
+    .email-letter input {
+        width: 60vw;
+        margin-right: -15vw;
+    }
+
+    .email-letter button {
+        transform: translate(-5px, -3px);
+        font-size: small;
+    }
+
     footer {
         width: 100%;
+        flex-direction: column;
+       /* height: 25vh; */
     }
 
     .help, .social-links, .address {
-        padding-left: 1vw;
+      /*  height: 5vh; */
+        width: 100%;
+        padding: 0 0 0 5vw;
+        margin: 0 0 -5vw 0;        
     }
 
-    .social-links{
-        width: 27vw;
+    .social-links, .help{
+        border: 0;
     }
+   
 
-    .help {
-        width: 30vw;
-    }
-
-    .help ul, .social-links ul {
+    .help ul, .social-links ul, .address p {
+        display: none;
+        flex-direction: column;
         font-size: medium;
+        margin: -5vw 0 7vw 0;
+
     }
+
+    .Open {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 6vw;
+        transform: translate(40vw, -7vw);
+        
+    }
+
+    .Close {
+        display: none;
+        justify-content: center;
+        align-items: center;
+        height: 6vw;
+        transform: translate(40vw, -7vw);
+    }
+
+    .foot-contents {
+        display: block;
+        flex-direction: column;
+        margin-bottom: 1vw;
+    }
+
+    .trademark {
+        font-size: large;
+        margin: 5vw 0 5vw 0;
+      }
 
 
 }

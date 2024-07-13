@@ -75,3 +75,40 @@ productContainers.forEach((item, i) => {
     })
 })
 
+
+function foot_help() {
+    document.querySelector('.help ul').style.display = 'flex';
+    document.querySelector('.Close').style.display = 'flex';
+    document.querySelector('.Open').style.display = 'none';
+}
+
+function foot_help_close() {
+    document.querySelector('.help ul').style.display = 'none';
+    document.querySelector('.Close').style.display = 'none';
+    document.querySelector('.Open').style.display = 'flex';
+}
+
+function foot_social() {
+    document.querySelector('.social-links ul').style.display = 'flex';
+    document.getElementById('social_close').style.display = 'flex';
+    document.getElementById('social_open').style.display = 'none';
+}
+
+function foot_social_close() {
+    document.querySelector('.social-links ul').style.display = 'none';
+    document.getElementById('social_close').style.display = 'none';
+    document.getElementById('social_open').style.display = 'flex';
+}
+
+function foot_add() {
+    document.querySelector('.address p').style.display = 'flex';
+    document.getElementById('add_close').style.display = 'flex';
+    document.getElementById('add_open').style.display = 'none';
+}
+
+
+function foot_add_close() {
+    document.querySelector('.address p').style.display = 'none';
+    document.getElementById('add_close').style.display = 'none';
+    document.getElementById('add_open').style.display = 'flex';
+}
